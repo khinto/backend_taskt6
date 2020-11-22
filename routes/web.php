@@ -35,3 +35,11 @@ Route::post("/admin/update","ProductController@update")->name("adminupdate");
 
 
 Route::post("/admin/delete","ProductController@delete")->name("admindelete");
+
+
+
+
+Route::resource('news','NewsController');
+
+
+
