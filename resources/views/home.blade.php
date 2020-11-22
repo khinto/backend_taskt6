@@ -14,9 +14,9 @@
                         </div>
                     @endif
 
-                    <button type=“button”><a href="{{ route('admincreate') }}" >Create</a></button>
+                    <button type=“button”><a href="{{ route('news.create') }}" >Create</a></button>
 
-                    <button type=“button”><a href="{{ route('adminindex') }}" >Show Products</a></button>
+                    <button type=“button”><a href="{{ route('news.index') }}" >Show Products</a></button>
 
 
                 </div>
